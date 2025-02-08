@@ -1,52 +1,52 @@
 # fiarahamiasa
 
-## Installation du projet Laravel 11 + Vue.js 3 + TypeScript + Bun
+## Installing the Laravel 11 + Vue.js 3 + TypeScript + Bun Project
 
-### Prérequis
+### Prerequisites
 
-Avant de commencer, assure-toi d'avoir installé **Bun** et PHP 8.2+ (nécessaire pour Laravel 11) :
+you have installed Bun and PHP 8.2+ (required for Laravel 11):
 ```sh
 curl -fsSL https://bun.sh/install | bash
 ```
 
-Vérifie l'installation :
+Verify the installation:
 ```sh
 bun -v
 php -v  # Assurez-vous d'avoir PHP 8.2 ou plus
 ```
 
-### Installation du projet
+### Project Installation
 
-1. **Cloner le projet**
+1. **Clone the project**
 ```sh
 git clone git@github.com:97mams/fiarahamiasa.git
 cd fiarahamiasa
 ```
 
-2. **Installer les dépendances PHP**
+2. **Install PHP dependencies**
 ```sh
 composer install
 ```
 
-3. **Installer les dépendances front-end avec Bun**
+3. **Install front-end dependencies with Bun**
 ```sh
 bun install
 ```
 
-4. **Installer Vue.js et les plugins nécessaires**
+4. **Install Vue.js and required plugins**
 ```sh
 bun add vue
 bun add -d @vitejs/plugin-vue typescript vue-tsc @vue/runtime-core
 ```
 
-5. **Lancer le projet**
+5. **Start the project**
 
-### Démarrer le serveur Laravel
+#### Start the Laravel server
 ```sh
 php artisan serve
 ```
 
-### Lancer le serveur Vite avec Bun
+#### Start the Vite server with Bun
 ```sh
 bun run dev
 ```
