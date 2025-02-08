@@ -19,8 +19,8 @@ php -v  # Assurez-vous d'avoir PHP 8.2 ou plus
 
 1. **Cloner le projet**
 ```sh
-git clone <repo_url>
-cd <nom_du_projet>
+git clone git@github.com:97mams/fiarahamiasa.git
+cd fiarahamiasa
 ```
 
 2. **Installer les dépendances PHP**
